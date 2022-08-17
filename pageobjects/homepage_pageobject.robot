@@ -1,0 +1,3 @@
+*** Variables ***
+
+${ACCOUNT}          //*[text()="Account"]

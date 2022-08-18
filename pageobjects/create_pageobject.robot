@@ -1,13 +1,13 @@
 *** Variables ***
 
-${FIRST_NAME}                     //*[text()="First Name"]
+${FIRST_NAME}                     //*[@id="fi-firstName"]
 
-${LAST_NAME}                     //*[text()="Last Name"]
+${LAST_NAME}                     //*[@id="fi-lastName"]
 
-${EMAIL_ADDRESS}                //label[contains(@for,"fi-email")]
+${EMAIL_ADDRESS}                //*[@id="fi-email"]
 
-${PASSWORD}                    //*[text()="Password"]
+${PASSWORD}                    //*[@id="fi-password"]
 
-${JUMIA_NEWSLETTERS}          //*[text()="I want to receive Jumia Newsletters with the best deals and offers"]
+${JUMIA_NEWSLETTERS}          //*[@id="fi-terms"]   
 
-${CREATE_ACCOUNT}            //button[text()="CREATE ACCOUNT"]
+${CREATE_ACCOUNT}            //*[@id="authForm"]/div[7]/button

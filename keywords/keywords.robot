@@ -18,7 +18,7 @@ Click Sign In pane
     Wait Until Element is Visible          ${SIGN_IN}
     Click Element                          ${SIGN_IN}
 
-Click Create An Account Pane               
+Click Create An Account Via Email              
     Wait Until Element Is Visible          ${CREATE_AN_ACCOUNT_VIA_EMAIL} 
     Click Element                          ${CREATE_AN_ACCOUNT_VIA_EMAIL} 
 
@@ -47,5 +47,5 @@ Click Newsletter Checkbox
     Click Element                          ${JUMIA_NEWSLETTERS} 
 
 Click Create Account button                
-    Wait Until Element Is Visible         ${CREATE_ACCOUNT} 
-    Click Element                         ${CREATE_ACCOUNT}
+    Wait Until Element Is Visible          ${CREATE_ACCOUNT} 
+    Click Element                          ${CREATE_ACCOUNT}

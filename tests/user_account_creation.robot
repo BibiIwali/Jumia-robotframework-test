@@ -11,9 +11,10 @@ User can create an account with a valid email address and a valid password
     [Documentation]                        This test shows that users can create an account with a valid email address and a valid password
     [Tags]                                 Functional
     Click Account Tab
+    Page Should Contain Element            ${SIGN_IN} 
     Click Sign In Pane
     Page Should Contain                    Create your Jumia account
-    Click Create An Account Pane    
+    Click Create An Account Via Email   
     Page Should Contain                    Create Account
     Input Firstname                        ${FIRST_NAME}
     Input Lastname                         ${LAST_NAME} 

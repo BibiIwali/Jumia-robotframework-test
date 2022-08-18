@@ -2,7 +2,6 @@
 Library          SeleniumLibrary
 Resource         ../pageobjects/homepage_pageobject.robot
 Resource         ../pageobjects/loginpage_pageobject.robot
-Resource         ../pageobjects/loginpage_pageobject.robot
 Resource         ../pageobjects/create_pageobject.robot
 Resource         ../common/common.robot
 
@@ -25,23 +24,23 @@ Click Create An Account Pane
 
 Input Firstname
     [Arguments]                            ${first_name}
-    Wait Until Element Is Visible          ${FIRST_NAME} 
-    Input Text                             ${FIRST_NAME}         ${first_name}
+    Wait Until Element Is Visible          ${FIRST_NAME_INPUT} 
+    Input Text                             ${FIRST_NAME_INPUT}         ${first_name}
 
 Input Lastname                            
     [Arguments]                            ${last_name}
-    Wait Until Element Is Visible          ${LAST_NAME} 
-    Input Text                             ${LAST_NAME}          ${last_name}
+    Wait Until Element Is Visible          ${LAST_NAME_INPUT} 
+    Input Text                             ${LAST_NAME_INPUT}          ${last_name}
 
 Input Email address
     [Arguments]                            ${email_address}
-    Wait Until Element Is Visible          ${EMAIL_ADDRESS}
-    Input Text                             ${EMAIL_ADDRESS}      ${email_address}
+    Wait Until Element Is Visible          ${EMAIL_ADDRESS_INPUT}
+    Input Text                             ${EMAIL_ADDRESS_INPUT}      ${email_address}
 
 Input Password                            
     [Arguments]                            ${password}
-    Wait Until Element Is Visible          ${PASSWORD}
-    Input Text                             ${PASSWORD}           ${password}
+    Wait Until Element Is Visible          ${PASSWORD_INPUT}
+    Input Text                             ${PASSWORD_INPUT}           ${password}
 
 Click Newsletter Checkbox
     Wait Until Element Is Visible          ${JUMIA_NEWSLETTERS} 

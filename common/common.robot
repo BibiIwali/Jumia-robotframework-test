@@ -1,13 +1,13 @@
 *** Variables ***
 
-${URL}                           https://www.jumia.com.ng/
+${URL}                                 https://www.jumia.com.ng/
 
-${BROWSER}                       Chrome
+${BROWSER}                             Chrome
 
-${FIRST_NAME}                    Faith
+${FIRST_NAME_INPUT}                    Sonia
 
-${LAST_NAME}                     Ubi
+${LAST_NAME_INPUT}                     Ubi
 
-${VALID_EMAIL_ADDRESS}           Deborahsimon124@gmail.com
+${EMAIL_ADDRESS_INPUT}                 Deborahsimon124@gmail.com
 
-${VALID_PASSWORD}                Tango123
+${PASSWORD_INPUT}                      Tango123

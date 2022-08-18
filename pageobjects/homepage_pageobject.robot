@@ -1,3 +1,5 @@
 *** Variables ***
 
-${ACCOUNT}          //*[text()="Account"]
+${ACCOUNT}                  //*[text()="Account"]
+
+${SIGN_IN}                  //*[text()="Sign In"]

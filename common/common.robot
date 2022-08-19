@@ -4,10 +4,10 @@ ${URL}                                 https://www.jumia.com.ng/
 
 ${BROWSER}                             Chrome
 
-${FIRST_NAME_INPUT}                    Sonia
+${F_NAME}                    Sonia
 
-${LAST_NAME_INPUT}                     Ubi
+${L_NAME}                     Ubi
 
-${EMAIL_ADDRESS_INPUT}                 Deborahsimon124@gmail.com
+${E_ADDRESS}                 Deborahsimon124@gmail.com
 
-${PASSWORD_INPUT}                      Tango123
+${PWD}                      Tango123

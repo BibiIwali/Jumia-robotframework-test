@@ -1,13 +1,13 @@
 *** Variables ***
 
-${FIRST_NAME}                     //*[@id="fi-firstName"]
+${FIRST_NAME_INPUT}                     //*[@id="fi-firstName"]
 
-${LAST_NAME}                     //*[@id="fi-lastName"]
+${LAST_NAME_INPUT}                      //*[@id="fi-lastName"]
 
-${EMAIL_ADDRESS}                //*[@id="fi-email"]
+${EMAIL_ADDRESS_INPUT}                  //*[@id="fi-email"]
 
-${PASSWORD}                    //*[@id="fi-password"]
+${PASSWORD_INPUT}                       //*[@id="fi-password"]
 
-${JUMIA_NEWSLETTERS}          //*[@id="fi-terms"]   
+${TERMS_CONDITIONS}                     //*[@id="authForm"]/div[4]/div/label
 
-${CREATE_ACCOUNT}            //*[@id="authForm"]/div[7]/button
+${CREATE_ACCOUNT_BUTTON}                //button[text()="CREATE ACCOUNT"]

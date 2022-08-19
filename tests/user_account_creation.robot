@@ -16,10 +16,10 @@ User can create an account with a valid email address and a valid password
     Page Should Contain                    Create your Jumia account
     Click Create An Account Via Email   
     Page Should Contain                    Create Account
-    Input Firstname                        ${FIRST_NAME}
-    Input Lastname                         ${LAST_NAME} 
-    Input Email address                    ${VALID_EMAIL_ADDRESS} 
-    Input password                         ${VALID_PASSWORD} 
-    Click Newsletter Checkbox
+    Input Firstname                        ${F_NAME}
+    Input Lastname                         ${L_NAME} 
+    Input Email address                    ${E_ADDRESS} 
+    Input password                         ${PWD} 
+    Click Terms and conditions Checkbox
     Click Create Account button           
            

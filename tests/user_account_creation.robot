@@ -21,5 +21,6 @@ User can create an account with a valid email address and a valid password
     Input Email address                    ${E_ADDRESS} 
     Input password                         ${PWD} 
     Click Terms and conditions Checkbox
-    Click Create Account button           
+    Click Create Account button        
+    Page Should Contain Element            ${HELP} 
            

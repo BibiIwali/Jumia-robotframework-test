@@ -3,12 +3,15 @@ Library          SeleniumLibrary
 Resource         ../pageobjects/homepage_pageobject.robot
 Resource         ../pageobjects/loginpage_pageobject.robot
 Resource         ../pageobjects/create_pageobject.robot
+Resource         ../pageobjects/catalog_pageobject.robot
 Resource         ../common/common.robot
 
 
 *** Keywords ***
 Launch Browser
-    Open Browser        ${URL}             ${BROWSER}
+    Open Browser                           ${URL}             ${BROWSER}
+
+Maximize Browser Window        
 
 Click Account Tab
     Wait Until Element Is Visible          ${ACCOUNT}
@@ -32,7 +35,7 @@ Input Lastname
     Wait Until Element Is Visible          ${LAST_NAME_INPUT} 
     Input Text                             ${LAST_NAME_INPUT}                ${last_name}
 
-Input Email address
+Input Email Address
     [Arguments]                            ${email_address}
     Wait Until Element Is Visible          ${EMAIL_ADDRESS_INPUT}
     Input Text                             ${EMAIL_ADDRESS_INPUT}            ${email_address}
@@ -42,10 +45,19 @@ Input Password
     Wait Until Element Is Visible          ${PASSWORD_INPUT}
     Input Text                             ${PASSWORD_INPUT}                 ${password}
 
-Click Terms and conditions Checkbox
+Click Terms And Conditions Checkbox
     Wait Until Element Is Visible          ${TERMS_CONDITIONS} 
     Click Element                          ${TERMS_CONDITIONS} 
 
-Click Create Account button                
+Click Create Account Button                
     Wait Until Element Is Visible          ${CREATE_ACCOUNT_BUTTON} 
     Click Element                          ${CREATE_ACCOUNT_BUTTON}
+
+Input Product,Brands and Categories Name   
+     [Arguments]                           ${search_product}
+    Wait Until Element Is Visible          ${SEARCH_PRODUCT_INPUT} 
+    Input Text                             ${SEARCH_PRODUCT_INPUT}          ${search_product}          
+
+Click Search Button                        
+    Wait Until Element Is Visible          ${SEARCH_BUTTON}
+    Click Element                          ${SEARCH_BUTTON}

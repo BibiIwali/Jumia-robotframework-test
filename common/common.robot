@@ -1,13 +1,15 @@
 *** Variables ***
 
-${URL}                                 https://www.jumia.com.ng/
+${URL}                        https://www.jumia.com.ng/
 
-${BROWSER}                             Chrome
+${BROWSER}                    Chrome
 
-${F_NAME}                    Sonia
+${F_NAME}                     Sonia
 
 ${L_NAME}                     Ubi
 
-${E_ADDRESS}                 Deborahsimon124@gmail.com
+${E_ADDRESS}                  Deborahsimon1234+test@gmail.com
 
-${PWD}                      Tango123
+${PWD}                        Tango123
+
+${S_NAME}                     Laptop

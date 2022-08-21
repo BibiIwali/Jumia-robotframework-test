@@ -8,6 +8,6 @@ ${EMAIL_ADDRESS_INPUT}                  //*[@id="fi-email"]
 
 ${PASSWORD_INPUT}                       //*[@id="fi-password"]
 
-${TERMS_CONDITIONS}                     //*[@id="authForm"]/div[4]/div/label
+${TERMS_CONDITIONS}                     //*[text()="I accept the"] 
 
-${CREATE_ACCOUNT_BUTTON}                //button[text()="CREATE ACCOUNT"]
+${CREATE_ACCOUNT_BUTTON}                //button[contains(@class,'btn _prim -fw')]

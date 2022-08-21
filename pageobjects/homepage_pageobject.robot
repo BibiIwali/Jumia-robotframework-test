@@ -1,5 +1,14 @@
 *** Variables ***
 
-${ACCOUNT}                  //*[text()="Account"]
+${ACCOUNT}                          //*[text()="Account"]
 
-${SIGN_IN}                  //*[text()="Sign In"]
+${SIGN_IN}                         //*[text()="Sign In"]
+
+${SEARCH_PRODUCT_INPUT}           //*[@id="fi-q"]
+
+${SEARCH_BUTTON}                 //*[text()="Search"]
+
+
+
+
+

@@ -11,3 +11,7 @@ ${PASSWORD_INPUT}                       //*[@id="fi-password"]
 ${TERMS_CONDITIONS}                     //*[text()="I accept the"] 
 
 ${CREATE_ACCOUNT_BUTTON}                //button[contains(@class,'btn _prim -fw')]
+
+${POP_UP}                               //*[text()="Minimum 6 characters"]
+
+${INVALID_INFO}                         //*[text()="Invalid Information"]

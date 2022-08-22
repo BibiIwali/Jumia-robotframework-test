@@ -54,10 +54,18 @@ Click Create Account Button
     Click Element                          ${CREATE_ACCOUNT_BUTTON}
 
 Input Product,Brands and Categories Name   
-     [Arguments]                           ${search_product}
+    [Arguments]                            ${search_product}
     Wait Until Element Is Visible          ${SEARCH_PRODUCT_INPUT} 
     Input Text                             ${SEARCH_PRODUCT_INPUT}          ${search_product}          
 
 Click Search Button                        
     Wait Until Element Is Visible          ${SEARCH_BUTTON}
     Click Element                          ${SEARCH_BUTTON}
+
+Popup Should Appear
+    Wait Until Element Is Visible          ${POP_UP}  
+    Page Should Contain Element            ${POP_UP} 
+
+Popup Should Be Displayed            
+    Wait Until Element Is Visible          ${INVALID_INFO}
+    Page Should Contain Element            ${INVALID_INFO}
